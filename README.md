@@ -2,7 +2,7 @@
 Simplest full free calendar
 
 ## Technologies
-HTML
-CSS
-JavaScript 
-MomentJs
+1. HTML
+2. CSS
+3. JavaScript 
+4. MomentJs
