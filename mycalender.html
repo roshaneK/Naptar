@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Event Schedule</title>
+    <link rel="stylesheet" type="text/css" href="styles/mycalender.css">
+</head>
+
+<body>
+    <div>
+      Year
+      <select id="optYear" onchange="setDate();">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+      </select>
+      Month
+      <select id="optMonth" onchange="setDate();">
+        <option value="1">January</option>
+        <option value="2">February</option>
+        <option value="3">March</option>
+        <option value="4">April</option>
+        <option value="5">May</option>
+        <option value="6">June</option>
+        <option value="7">July</option>
+        <option value="8">August</option>
+        <option value="9">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+    </div>
+    <button onclick="goToPreviousMonth();">Previous Month</button>
+    <button onclick="goToNextMonth();">Next Month</button>
+    <div class="month">
+        <ul>
+          <li class="prev">&#10094;</li>
+          <li class="next">&#10095;</li>
+          <li><span id="calenderMonth"></span><br><span style="font-size:18px"><span id="calenderYear"></span></li>
+        </ul>
+      </div>
+      
+      <ul class="weekdays">
+        <li>Sunday</li>
+        <li>Monday</li>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+        <li>Friday</li>
+        <li>Saturday</li>
+      </ul>
+      
+      <ul class="days">
+        <li id="box-0"></li>
+        <li id="box-1"></li>
+        <li id="box-2"></li>
+        <li id="box-3"></li>
+        <li id="box-4"></li>
+        <li id="box-5"></li>
+        <li id="box-6"></li>
+        <li id="box-7"></li>
+        <li id="box-8"></li>
+        <li id="box-9"></li>
+        <li id="box-10"></li>
+        <li id="box-11"></li>
+        <li id="box-12"></li>
+        <li id="box-13"></li>
+        <li id="box-14"></li>
+        <li id="box-15"></li>
+        <li id="box-16"></li>
+        <li id="box-17"></li>
+        <li id="box-18"></li>
+        <li id="box-19"></li>
+        <li id="box-20"></li>
+        <li id="box-21"></li>
+        <li id="box-22"></li>
+        <li id="box-23"></li>
+        <li id="box-24"></li>
+        <li id="box-25"></li>
+        <li id="box-26"></li>
+        <li id="box-27"></li>
+        <li id="box-28"></li>
+        <li id="box-29"></li>
+        <li id="box-30"></li>
+        <li id="box-31"></li>
+        <li id="box-32"></li>
+        <li id="box-33"></li>
+        <li id="box-34"></li>
+        <li id="box-35"></li>
+        <li id="box-36"></li>
+        <li id="box-37"></li>
+        <li id="box-38"></li>
+        <li id="box-39"></li>
+        <li id="box-40"></li>
+        <li id="box-41"></li>
+        <li id="box-42"></li>
+      </ul>
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="scripts/moment.min.js"></script>
+<script src="scripts/mycalender.js"></script>
+
+
+</html>
