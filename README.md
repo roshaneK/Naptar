@@ -5,4 +5,4 @@ Simplest full free calendar
 1. HTML
 2. CSS
 3. JavaScript 
-4. MomentJs
+4. Moment.js
